@@ -39,9 +39,7 @@ first(names, function(firstName){
 
 // 2. Write a function called last which returns the last item of the array using a callback function.
 
-  var last = (names, cb) => cb(names[names.length - 1]);
-
-
+var last = (names, cb) => cb(names[names.length - 1]);
 
 last(names, function(lastName){
   console.log('The last name in names is ' + lastName);
@@ -52,7 +50,7 @@ last(names, function(lastName){
 
 // 3. Write a function called multiply that multiplies two numbers. Invoke the callback with the result of the multiplication. 
 
-  //Code Here
+var multiply = (a, b, callback) => callback(a * b);
 
 
 
