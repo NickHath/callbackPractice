@@ -39,7 +39,7 @@ first(names, function(firstName){
 
 // 2. Write a function called last which returns the last item of the array using a callback function.
 
-  //Code Here
+  var last = (names, cb) => cb(names[names.length - 1]);
 
 
 
