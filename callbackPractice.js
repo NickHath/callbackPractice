@@ -64,9 +64,7 @@ multiply(4, 3, function(answer){
 // If it does, invoke the callback with true as an argument. 
 // If the name does not exist, invoke the callback with false as an argument.
 
-  //Code Here 
-
-
+var contains = (names, name, callback) => callback(names.includes(name));
 
 
 contains(names, 'Colt', function(result){
